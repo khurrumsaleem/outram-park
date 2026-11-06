@@ -91,6 +91,8 @@ pub mod raffles;
 // Added 2026-10-21 with the lockstep release (outram-park-backend gh:#971)
 #[cfg(feature = "petir")]
 pub mod petir;
+#[cfg(feature = "bugis")]
+pub mod bugis;
 #[cfg(feature = "redhill")]
 pub mod redhill;
 #[cfg(feature = "bishan")]

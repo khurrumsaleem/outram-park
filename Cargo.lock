@@ -1072,9 +1072,9 @@ checksum = "2af50177e190e07a26ab74f8b1efbfe2ef87da2116221318cb1c2e82baf7de06"
 
 [[package]]
 name = "bedok"
-version = "0.0.2"
+version = "0.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bac3c4c1bff79df9b0c55492c30dd6b21da9010b670b791eea117203793a2a13"
+checksum = "ba89268d2ba1b6d586841a0d21c8d1e996e94ad62e81a81c040fa274836aa878"
 dependencies = [
  "petir",
  "thiserror 2.0.20",
@@ -1095,9 +1095,9 @@ dependencies = [
 
 [[package]]
 name = "bishan"
-version = "0.0.2"
+version = "0.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4d9bbf4d324a24aa098c143773168d4157ea0976b360ae83e896c6bf9414a3e4"
+checksum = "847fe442c64aa3475f64d5b3d0380c830bb9a199d21ec811052961be82d132c4"
 dependencies = [
  "petir",
  "uom",
@@ -1241,9 +1241,9 @@ dependencies = [
 
 [[package]]
 name = "boon-lay"
-version = "0.2.1"
+version = "0.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5d6ce5bde495c17b25802bb6080ac2352bf9afd7c524dad0ee43508d91a26718"
+checksum = "ba6ddfed4f7a3e8fe627e6f846f36d6bb3271bf929584b72757f0a15e6bc05bb"
 dependencies = [
  "anyhow",
  "fission-yields-data",
@@ -1301,13 +1301,32 @@ dependencies = [
 
 [[package]]
 name = "buangkok"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e126784eb3cd6bc5785a958a526e7c23df48cbd0badb0998d16430e96a06ec60"
+checksum = "af5ca9119a0b5df20f6846c6d5f4dffd0799a269d2e474bd9995236f22f5f072"
 dependencies = [
  "changi",
  "petir",
  "uom",
+]
+
+[[package]]
+name = "bugis"
+version = "0.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9009db7c296920d581e4e38dc49e70d589792a95b7ed4c3896c6de298ffbc8a8"
+dependencies = [
+ "csv",
+ "egui 0.36.1",
+ "js-sys",
+ "petir",
+ "sha2",
+ "thiserror 2.0.20",
+ "uom",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
+ "web-time",
 ]
 
 [[package]]
@@ -1532,9 +1551,9 @@ dependencies = [
 
 [[package]]
 name = "changi"
-version = "0.0.2"
+version = "0.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd3b71d7c369618ef2313428f5b911d5a253efb9ceff3f87b279b419ca90c952"
+checksum = "dbb4694301349664dba98b99d76b07ff88dab233d023ce1622d480cb1b37460e"
 dependencies = [
  "petir",
  "rayon",
@@ -1543,9 +1562,9 @@ dependencies = [
 
 [[package]]
 name = "chem-eng-real-time-process-control-simulator"
-version = "0.2.4"
+version = "0.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "192e5e2acfc18c1d4be81e06dad831fb26308ddc92d29694c99bcee794981601"
+checksum = "27c66ba90c192edd703594399879e1b69e1bb493423f26bf1f8fd27ee3803abb"
 dependencies = [
  "approx",
  "csv",
@@ -2096,9 +2115,9 @@ checksum = "be1e0bca6c3637f992fc1cc7cbc52a78c1ef6db076dbf1059c4323d6a2048376"
 
 [[package]]
 name = "deck-based-open-source-visualisation-engine-for-reactors-dover"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4af0b0b88045d68e44f115824f4b8b57bfd6c653a3814aff77504823699d2929"
+checksum = "a9e6113704688f47897cec95d0928e2320391963da7be03eaa1a5fa129bce4d2"
 dependencies = [
  "outram-park-fork-dwsim-libs",
  "petir",
@@ -2239,10 +2258,11 @@ dependencies = [
 
 [[package]]
 name = "dhoby-ghaut"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "55264c58e89bd7b059d5994d03a38de51827d29685c2daae7ab7328fd34b75ee"
+checksum = "e6063d4b51d7769f22743f6566d3808aae3d2a1447976908ad305fe079df4f88"
 dependencies = [
+ "bugis",
  "eframe 0.36.1",
  "egui 0.36.1",
  "egui-file-dialog",
@@ -3094,9 +3114,9 @@ checksum = "2acce4a10f12dc2fb14a218589d4f1f62ef011b2d0cc4b3cb1bba8e94da14649"
 
 [[package]]
 name = "farrer-park"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ee40311bd4f40d12bd8644f328a8ebcd520dc915f71970eff678639cb30ce197"
+checksum = "3ecfbdc1295e7664fb91e711dee451e7ff332b919ebc837d716924fc2a436f6a"
 dependencies = [
  "outram-foam-basic-lib",
  "petir",
@@ -5559,9 +5579,9 @@ dependencies = [
 
 [[package]]
 name = "kaki-bukit"
-version = "0.0.2"
+version = "0.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "08c42b747e9c1f599763d372f4b88152cf4aaf4a92a593c2fb65e0777d9f276d"
+checksum = "5637e4d3522abefd70d80727ef39311c6348f29150aac307a7c9e760c3861d74"
 dependencies = [
  "petir",
 ]
@@ -5585,10 +5605,11 @@ checksum = "e2db585e1d738fc771bf08a151420d3ed193d9d895a36df7f6f8a9456b911ddc"
 
 [[package]]
 name = "knowledge-oriented-vv-analysis-for-nuclear-sciences-kovan"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d770a7bfb8047c0f42e86c2cc6857ad88880e33fa188adb97ae1266fb807e8f7"
+checksum = "08d4ed37822fd10d98d39b0e06805213a1aec2149e77acae2913b8f2e039490f"
 dependencies = [
+ "bugis",
  "clap",
  "csv",
  "directories 5.0.1",
@@ -5609,6 +5630,7 @@ dependencies = [
  "kovan-metrics",
  "kovan-semantics",
  "kovan-web",
+ "libc",
  "petir",
  "pulldown-cmark",
  "ratatui",
@@ -5755,9 +5777,9 @@ dependencies = [
 
 [[package]]
 name = "kovan-codegen"
-version = "0.0.4"
+version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "59a084d3bf75405bb6fee758f150951797296430b33374cf9c081015f6aa4f6f"
+checksum = "3c069f150073a4911b042d543848342453344f8c1422cc1591f716cdf561210c"
 dependencies = [
  "kovan-common",
  "serde",
@@ -5766,9 +5788,9 @@ dependencies = [
 
 [[package]]
 name = "kovan-common"
-version = "0.0.4"
+version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a216eda79a98d265f8a4aedc8301435b8957311f69068145569df23ca1ed6ce6"
+checksum = "2b80d007f78c0c11b9753ac8e75f8a5fce3acfa06bce569436fe6057581c7966"
 dependencies = [
  "aes-gcm",
  "argon2",
@@ -5792,9 +5814,9 @@ dependencies = [
 
 [[package]]
 name = "kovan-discovery"
-version = "0.0.4"
+version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3787336fb9dc2425d082e5e417cc99a924b2fed2d6e2dd966ca243eb0b9ffbd1"
+checksum = "406cb7a414a68022393204aa638ff410a11d7a7845ea66571d71114efe897cc3"
 dependencies = [
  "gix",
  "grep-matcher",
@@ -5809,9 +5831,9 @@ dependencies = [
 
 [[package]]
 name = "kovan-literature"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a8cc1d37579d6dc7a8e04df59f5f53f3caf7ecaaf50ea34752033c1b028795d8"
+checksum = "1bdd783dbb6eaf68a3c291b9cb93e9a7dcd53a10759604e8642b3b6ce8952fd2"
 dependencies = [
  "html5ever",
  "icu_casemap",
@@ -5833,9 +5855,9 @@ dependencies = [
 
 [[package]]
 name = "kovan-metrics"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1fbbc6b754fd3d71769a089b929cf9b9aa1b6f56326c94ee148a3b18b264e61d"
+checksum = "1c073cf207562a5344b0dc7c7a5fab32b6f744c03b77ec5183028d09d15599ab"
 dependencies = [
  "kovan-common",
  "kovan-discovery",
@@ -5845,9 +5867,9 @@ dependencies = [
 
 [[package]]
 name = "kovan-semantics"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "baa66be681d3e0c50711c4161701e6357d9adfca47af07c9af904879383f72bc"
+checksum = "2cb91d310c6540e396110bb2aff5afdab4646af71bd70f84675c2cfbffb30e93"
 dependencies = [
  "kovan-common",
  "kovan-discovery",
@@ -5857,10 +5879,11 @@ dependencies = [
 
 [[package]]
 name = "kovan-web"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "499e7adbc42bf024c27bb013b819ecb6f2285e10358f253e44a095dba233048b"
+checksum = "4b9ed20a3958af098f3475262578b58fa9b37407e1634b57ca7b6aa3dbe76174"
 dependencies = [
+ "bugis",
  "egui 0.36.1",
  "js-sys",
  "kopitiam-syntax",
@@ -6493,9 +6516,9 @@ dependencies = [
 
 [[package]]
 name = "nee_soon"
-version = "0.0.4"
+version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "34cad37eb80c46f3770203d768c06424af4dadc43dad197e4cea3280065af604"
+checksum = "d0808119746305dcb9226b7c0d87c86d6ee0c1a77f26dd8cc4bae0d711cff916"
 dependencies = [
  "njoy-outram-park-fork",
  "outram-blender",
@@ -6505,6 +6528,7 @@ dependencies = [
  "petir",
  "serde",
  "serde_json",
+ "tampines",
  "teh-o-prke",
  "thiserror 2.0.20",
  "uom",
@@ -6572,9 +6596,9 @@ dependencies = [
 
 [[package]]
 name = "njoy-outram-park-fork"
-version = "0.0.6"
+version = "0.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a9987e20548757c525d434713df5b7892bdc3177b0d4e44b9c9ce96f3bb4e88b"
+checksum = "a684dea86a8eff94d16fc70e65cda2c93d5f8660e3af56be1b463ba46550d122"
 dependencies = [
  "directories 5.0.1",
  "fs2",
@@ -7196,9 +7220,9 @@ dependencies = [
 
 [[package]]
 name = "outram-blender"
-version = "0.0.6"
+version = "0.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dda8ae017c142e34d3cdf9a9c192eef1593d345dfa38b79074763eb7cbc61075"
+checksum = "f949ab81b32b56aee6d79ad0962bbd1cbfab5e74d9f43d3cdabcfd8e510b0f6b"
 dependencies = [
  "farrer-park",
  "miniz_oxide 0.8.9",
@@ -7211,9 +7235,9 @@ dependencies = [
 
 [[package]]
 name = "outram-foam-appbuilder-lib"
-version = "0.1.6"
+version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9bad42acf8068964b1caa4451b11a8466c2e5b939f6a3a8534bf913611afd3b3"
+checksum = "daf13fdc78b62503fccced2489130329b4770d3e90bcd28b24b92d4aa41ceb00"
 dependencies = [
  "ndarray",
  "outram-foam-basic-lib",
@@ -7227,9 +7251,9 @@ dependencies = [
 
 [[package]]
 name = "outram-foam-basic-lib"
-version = "0.1.7"
+version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d4e986804411380e61735cf6e41918dcbaf93ab688f02230459d4fbc7e8103ba"
+checksum = "b5f5978d57b01bdf35050d32e911b7e998ad5f940d1b89d18f6fe2b89c0e33ba"
 dependencies = [
  "ndarray",
  "petir",
@@ -7239,9 +7263,9 @@ dependencies = [
 
 [[package]]
 name = "outram-foam-cli"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "55beab98a15131bcbfdf4af4ba6e6684e05b69f4adc917ed1862d8d0f14eb080"
+checksum = "d79ed4aec655c6128a59f5b2746777a82f7dc706fe3a561ff5d885ece71e3883"
 dependencies = [
  "clap",
  "outram-foam-appbuilder-lib",
@@ -7253,9 +7277,9 @@ dependencies = [
 
 [[package]]
 name = "outram-foam-mesh"
-version = "0.1.2"
+version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "48c81939e97af915daefee24a69b659f308c4d0866ae275502c787523ccf67ab"
+checksum = "3085c60f8df5f5ba3c92d5c72d444032edfdaf014f0418bed6ce64e562a6cb04"
 dependencies = [
  "ndarray",
  "outram-foam-basic-lib",
@@ -7266,9 +7290,9 @@ dependencies = [
 
 [[package]]
 name = "outram-foam-multiphase"
-version = "0.0.4"
+version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "25dca65369a1c051d4a1988c607d57964184302974bd99a901bdb8f47255541d"
+checksum = "a54af28c128fcda66b212f7ddde8885cbb23f1f202de77fa7491e56d9e8a0907"
 dependencies = [
  "outram-foam-basic-lib",
  "petir",
@@ -7278,9 +7302,9 @@ dependencies = [
 
 [[package]]
 name = "outram-foam-turbulence-lib"
-version = "0.1.4"
+version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3912f8ad10813ab74ad73c8a028eeedb3d85c16bade54eaf7ae4e4364fcbd7f0"
+checksum = "ce418f18409f1431333451bf4f548470a76b4e74371b2b4c556f2fe769a2a9b1"
 dependencies = [
  "ndarray",
  "outram-foam-basic-lib",
@@ -7291,9 +7315,9 @@ dependencies = [
 
 [[package]]
 name = "outram-mc-libs"
-version = "0.0.6"
+version = "0.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ade971ba68b2f4d882d438147bd925e15b45bf6a5d532c8f7caa6ecac52c00c4"
+checksum = "b09222b100d859f8a138de1f4f8bfe584aaf64c033b5c8f326d74bd54cb77cbb"
 dependencies = [
  "fission-yields-data",
  "log",
@@ -7317,12 +7341,13 @@ dependencies = [
 
 [[package]]
 name = "outram-park"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "bedok",
  "bishan",
  "boon-lay",
  "buangkok",
+ "bugis",
  "changi",
  "chem-eng-real-time-process-control-simulator",
  "clap",
@@ -7378,11 +7403,12 @@ dependencies = [
 
 [[package]]
 name = "outram-park-digital-twin-engine"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "69c3510c673432b1263ab1384bb0ba897f72e3293e4b18d98ab0719de8fae9cb"
+checksum = "12606f9f2ef823035d0eebbae137330f9bf6e65289402e4a28bbc9c51a696338"
 dependencies = [
  "async-opcua",
+ "bugis",
  "chem-eng-real-time-process-control-simulator",
  "csv",
  "directories 5.0.1",
@@ -7395,22 +7421,27 @@ dependencies = [
  "mdns-sd",
  "nee_soon",
  "njoy-outram-park-fork",
+ "outram-foam-appbuilder-lib",
+ "outram-foam-basic-lib",
+ "outram-foam-mesh",
  "outram-mc-libs",
  "outram-park-fork-dwsim-libs",
  "petir",
+ "raffles",
  "tampines",
  "tampines-steam-tables",
  "thiserror 2.0.20",
  "tokio",
  "tuas_boussinesq_solver",
  "uom",
+ "web-time",
 ]
 
 [[package]]
 name = "outram-park-fork-cfmesh"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "86a9ee031c78d2d258c2f7028b08e42b907bacfdd8ef5b8b8d91b00c615689e8"
+checksum = "bd811b17c1bb40a3bb6b8353b2a422281c07d3aa8a2c8c5455923d1416013058"
 dependencies = [
  "outram-foam-basic-lib",
  "petir",
@@ -7418,9 +7449,9 @@ dependencies = [
 
 [[package]]
 name = "outram-park-fork-coolprop"
-version = "0.1.3"
+version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "791ba8e83672792ce57a6712f889911078c9b492cabdaa6a6ed1497584210b11"
+checksum = "12d50a9dd61ed791682f06a900ab7af95b29688aea1f4a0f901e99844783e57a"
 dependencies = [
  "outram-foam-basic-lib",
  "petir",
@@ -7429,9 +7460,9 @@ dependencies = [
 
 [[package]]
 name = "outram-park-fork-dwsim-libs"
-version = "0.0.4"
+version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4843ba3828dc26518287a1a59b382b0862200516bcd3637173c08b5c70c1f836"
+checksum = "505a6b3ec995996c6fa59cde849eb4cb031c93e9d5e6c510122d3903afed5e2a"
 dependencies = [
  "ndarray",
  "petir",
@@ -7442,9 +7473,9 @@ dependencies = [
 
 [[package]]
 name = "outram-park-fork-liggghts"
-version = "0.0.2"
+version = "0.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b75fd42cbfa18ed5892a13f99dd272ded7958a79a03e33f983e4d5ecb9c093e3"
+checksum = "d847d31e03c57872c330ee60384ec60f04eb0f6e027a4137216f8b2a8071b056"
 dependencies = [
  "petir",
  "raffles",
@@ -7456,9 +7487,9 @@ dependencies = [
 
 [[package]]
 name = "outram-park-fork-moltres"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "908f37a39da282a99338bb885d539355f270a57ac4d76f7b302294fcc26e5769"
+checksum = "205e0164c358c9767273f433809170d3c6dd5a067f958eab4110b0f84cdd1d53"
 dependencies = [
  "outram-foam-basic-lib",
  "petir",
@@ -7468,9 +7499,9 @@ dependencies = [
 
 [[package]]
 name = "outram-park-fork-offbeat"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8b73f0523aa82b25c5dd78a7411a71d24cca07bf3fe8c5c94d547131b20e1a29"
+checksum = "6bcab5742f68cc21e3d50efe7ea775e9b4263b1096185a2504ce89fcf7c6807c"
 dependencies = [
  "outram-foam-basic-lib",
  "petir",
@@ -7480,9 +7511,9 @@ dependencies = [
 
 [[package]]
 name = "outram-park-fork-onix"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "19dcb70d2ccc7df5a62dfdaf7b0e71762ba7f52db6aa5c24a3ddeed34cd8c41b"
+checksum = "d0a3388c88e07b051b8ac5b36ebbff4412bbb6a1e8a7defa74d432aea8a30bd7"
 dependencies = [
  "petir",
  "thiserror 2.0.20",
@@ -7491,9 +7522,9 @@ dependencies = [
 
 [[package]]
 name = "outram-park-fork-pflotran"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "78e26a97e6bb43ab0314523cfebe24ec06d086ef2d1cc570d0924c08576f0b57"
+checksum = "8912d909bdcb3eb82785de7611a7c253eff4d1ad74e4d49e79c4a3bbd3d6c57c"
 dependencies = [
  "hdf5-pure",
  "outram-foam-basic-lib",
@@ -7508,9 +7539,9 @@ dependencies = [
 
 [[package]]
 name = "outram-park-fork-thermochimica"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f234527728465fa67c180cdffc620e7efe60e74474e42512ba0729b5ff508702"
+checksum = "b93209a63df225c3927039be782b04aa83749465e64d9ea72215b2500fd50936"
 dependencies = [
  "petir",
  "thiserror 2.0.20",
@@ -7519,9 +7550,9 @@ dependencies = [
 
 [[package]]
 name = "outram-park-mpi"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bb86281b86884c7e2ea79adfe3e51ca3394288c37635b7b69b3da1b65bc2e3be"
+checksum = "8cda7f1763a406caa320383cccd68d71d294de91e0b1aa47aa52b40975a6a761"
 dependencies = [
  "thiserror 2.0.20",
 ]
@@ -7581,9 +7612,9 @@ dependencies = [
 
 [[package]]
 name = "pasir-ris"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "66e2c0025084f117d761e7ffa1d99aa0a0fd1e73a55e70c9be652a794f484bdb"
+checksum = "381583282f0621cb09e0c31983b9d1acaf3d28a7782ad9c252800ba9a7151219"
 dependencies = [
  "bishan",
  "buangkok",
@@ -7675,9 +7706,9 @@ checksum = "3637c05577168127568a64e9dc5a6887da720efef07b3d9472d45f63ab191166"
 
 [[package]]
 name = "petir"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3cde691b65f06408cabb9af42f79f010d8af726dd41289840ca10badbdc91b9e"
+checksum = "5a2709b5d9bb9fc040a7718f2cc56929fc9fb7ec625955a0c4cf359a67dff95b"
 dependencies = [
  "faer",
  "libm",
@@ -8263,12 +8294,13 @@ checksum = "dc33ff2d4973d518d823d61aa239014831e521c75da58e3df4840d3f47749d09"
 
 [[package]]
 name = "raffles"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e895df329a64a678bbcc1f857f7d41eaf409cc8722e8390dcd90050fc1065b34"
+checksum = "49e73ab2ce80d515b66e199a088686a5d141e92a7f7e03183b5a3cb20c662abb"
 dependencies = [
  "petir",
  "thiserror 2.0.20",
+ "uom",
  "xml-rs",
 ]
 
@@ -8540,9 +8572,9 @@ checksum = "03251193000f4bd3b042892be858ee50e8b3719f2b08e5833ac4353724632430"
 
 [[package]]
 name = "redhill"
-version = "0.0.2"
+version = "0.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bee748ce4ba01efb5a011decba85d5d29056558f5ec02d41fa92c82030f99811"
+checksum = "1db138762a720f190814d5a7fe3b2e1b7e6c31302607676cb1f54b6ffccf3117"
 
 [[package]]
 name = "redox_syscall"
@@ -8883,16 +8915,24 @@ checksum = "2ab42ca02749e120097e328d91d415325bdf43b1c72c4c8badf37375fe40a813"
 
 [[package]]
 name = "sembawang"
-version = "0.0.1"
+version = "0.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b21e926ba84b17ca68cf9504a1bfc381fbfc4bd7810b379304cd592561f9d2fe"
+checksum = "df5b0073019ea7e728426f33731b447512ef66f0e658544fe10b7c0a5095d704"
 dependencies = [
  "boon-lay",
  "buangkok",
  "changi",
+ "fission-yields-data",
+ "openmc-endf-8-depletion-lib-a",
+ "openmc-endf-8-depletion-lib-b",
  "outram-mc-libs",
+ "outram-park-fork-offbeat",
  "petir",
+ "tampines",
+ "tampines-steam-tables",
+ "teh-o-prke",
  "thiserror 2.0.20",
+ "tuas_boussinesq_solver",
  "uom",
 ]
 
@@ -9568,13 +9608,15 @@ dependencies = [
 
 [[package]]
 name = "tampines"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c5bf3953ded595d01bdde459542163167acbddb28a17a8755bb52ef4b35acb86"
+checksum = "35981d34ea02e1cae737788bd19945e4c5f21c5de11437f766d288175d69dd3b"
 dependencies = [
  "boon-lay",
  "chem-eng-real-time-process-control-simulator",
+ "farrer-park",
  "getrandom 0.3.4",
+ "outram-foam-appbuilder-lib",
  "outram-foam-basic-lib",
  "outram-foam-multiphase",
  "outram-park-fork-coolprop",
@@ -9589,9 +9631,9 @@ dependencies = [
 
 [[package]]
 name = "tampines-steam-tables"
-version = "0.3.0"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "33e3bd5c6b17d99097ff82a7ec2df50f0f9aff447e253975e41de1b547c80e3b"
+checksum = "696ffd91644f508017dad06e7c7f4f28459bf14f4a9090814de81acc80505e40"
 dependencies = [
  "approx",
  "ndarray",
@@ -9615,9 +9657,9 @@ checksum = "adb6935a6f5c20170eeceb1a3835a49e12e19d792f6dd344ccc76a985ca5a6ca"
 
 [[package]]
 name = "teh-o-prke"
-version = "0.1.7"
+version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b45e8b1cb9fb87734305b304742e582cab4752061930345ca27d448b4d2af785"
+checksum = "936b0d39ee0fbd4db750f7a226c9d465998858c8b4caba7693d76ed5e8d89b23"
 dependencies = [
  "approx",
  "chem-eng-real-time-process-control-simulator",
@@ -10017,9 +10059,9 @@ checksum = "d2df906b07856748fa3f6e0ad0cbaa047052d4a7dd609e231c4f72cee8c36f31"
 
 [[package]]
 name = "tuas_boussinesq_solver"
-version = "0.1.8"
+version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b002f7e92da5e869edde4fee961cfe5a0320798043aa2e85afefded888b71763"
+checksum = "f5044b2080051ebe93f39ebc0b6da6a5e5a8b41b355df45cf65bf03f18a6d1eb"
 dependencies = [
  "approx",
  "csv",
